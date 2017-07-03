@@ -1,0 +1,54 @@
+body {
+  background-color: lightgrey;
+  text-align: center;
+}
+header{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.player{
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.music-player{
+  width: 90%;
+}
+#search-bar{
+  width:70%;
+  height:30px;
+  font-size: 1em;
+  background-color: #ffffff;
+}
+#search_submit{
+  width: 12%;
+  height:50px;
+  font-size: 3em;
+}
+.search{
+  text-align: center;
+  padding-top: 30px;
+}
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.songs{
+  padding:  20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+img{
+  padding-bottom: 10px;
+}
+.song_title{
+  padding-bottom: 10px;
+  font-size: .7em;
+}
+.band{
+  padding-bottom: 10px;
+}
